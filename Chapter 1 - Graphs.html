@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 1 - Graphs &#8212; College Algebra and Trigonometry</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Section 1.1 - The Distance and Midpoint Formulas, Graphing Utilities, and Introduction to Graphing Equations" href="Section%201.1%20-%20The%20Distance%20and%20Midpoint%20Formulas.html" />
+    <link rel="prev" title="MAT 1350 Precalculus" href="intro.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/differential.jfif" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">College Algebra and Trigonometry</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   MAT 1350 Precalculus
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Chapter 1 - Graphs
+  </a>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Section%201.1%20-%20The%20Distance%20and%20Midpoint%20Formulas.html">
+     Section 1.1 - The Distance and Midpoint Formulas, Graphing Utilities, and Introduction to Graphing Equations
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Section%201.2%20-%20Intercepts%2C%20Symmetry%2C%20Graphing%20Key%20Equations.html">
+     Section 1.2 - Intercepts, Symmetry, Graphing Key Equations
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Section%201.3%20-%20Solving%20Equations%20Algebraically%20and%20Graphically.html">
+     Section 1.3 - Solving Equations Algebraically and Graphically (Optional)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Section%201.4%20-%20Straight%20Lines.html">
+     Section 1.4 - Straight Lines
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Section%201.5%20-%20Circles.html">
+     Section 1.5 - Circles
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Chapter 1 - Graphs.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter 1 - Graphs.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="chapter-1-graphs">
+<h1>Chapter 1 - Graphs<a class="headerlink" href="#chapter-1-graphs" title="Permalink to this headline">¶</a></h1>
+<p>In this chapter, we connect algebra and geometry using the rectangular (or Cartesian) coordinate system. In the 1600s, algebra had developed sufficiently so that René Descartes (1596-1650) and Pierre de Fermat (1601-1665) were able to use rectangular coordinates to translate geometry problems into algebra problems, and vice versa. This allowed both geometers and algebraists to gain new insights into their subjects, which were thought to be separate, but now were seen as connected.</p>
+<p><strong>René Descartes and the Fly on the Ceiling</strong></p>
+<img src="descartes_lead.jpg">
+<p>The coordinate system we commonly use is called the Cartesian system, after the French mathematician René Descartes (1596-1650), who developed it in the 17th century. Legend has it that Descartes, who liked to stay in bed until late, was watching a fly on the ceiling from his bed. He wondered how to best describe the fly’s location and decided that one of the corners of the ceiling could be used as a reference point.</p>
+<p>Imagine the ceiling as a rectangle drawn on a piece of paper: taking the left bottom corner as the reference point, you can specify the location of the fly by measuring how far you need to go in the horizontal direction and how far you need to go in the vertical direction to get to it. These two number are the fly’s coordinates. Every pair of coordinates specifies a unique point on the ceiling and every point on the ceiling comes with a unique pair of coordinates. It’s possible to extend this idea, allowing the axes (the two sides of the room) to become infinitely long in both directions, and using negative numbers to label the bottom part of the vertical axis and the left part of the horizontal axis. That way you can specify all points on an infinite plane.</p>
+<p>Descartes’ coordinate system created a link between algebra and geometry. Geometric shapes, such as circles, could now be described algebraically using the coordinates of the points that make up the shapes. For example, a circle centred on the point with coordinates <span class="math notranslate nohighlight">\((0,0)\)</span> and of radius <span class="math notranslate nohighlight">\(2\)</span> is given by the equation</p>
+<div class="math notranslate nohighlight">
+\[x^2+y^2=2^2\]</div>
+<p>All points whose coordinates <span class="math notranslate nohighlight">\((x,y)\)</span> satisfy this equation lie on the circle, and all points on the circle have coordinates satisfying the equation. Using such a coordinate system it is possible to solve geometric problems using algebra, and vice versa.</p>
+<p>Descartes produced many other works in mathematics, science and philosophy. You might have heard of his famous quote, <em>“I think, therefore I am”</em>. And he would undoubtedly have gone on to produce more, had he not died at the relatively young age of 53. His habit of sleeping until 11am had been brutally disrupted by Queen Christina of Sweden, who persuaded him to go to Stockholm in 1649 and wanted to do maths with him at 5 o’clock every morning. Descartes endured the early mornings and the Scandinavian cold for a few months, but eventually contracted pneumonia and died.</p>
+<p>©University of Cambridge</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">MAT 1350 Precalculus</a>
+    <a class='right-next' id="next-link" href="Section%201.1%20-%20The%20Distance%20and%20Midpoint%20Formulas.html" title="next page">Section 1.1 - The Distance and Midpoint Formulas, Graphing Utilities, and Introduction to Graphing Equations</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Amlan Banerjee, Ph.D.<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
