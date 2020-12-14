@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chapter 1 - Graphs &#8212; College Algebra and Trigonometry</title>
+    <title>Chapter 2 - Functions and Graphs &#8212; College Algebra and Trigonometry</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -57,8 +57,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Section 1.1 - The Distance and Midpoint Formulas, Graphing Utilities, and Introduction to Graphing Equations" href="Section%201.1%20-%20The%20Distance%20and%20Midpoint%20Formulas.html" />
-    <link rel="prev" title="MAT 1350 Precalculus" href="intro.html" />
+    <link rel="next" title="Section 2.1 - Functions" href="Section%202.1%20-%20Functions.html" />
+    <link rel="prev" title="Section 1.5 - Circles" href="Section%201.5%20-%20Circles.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -99,42 +99,32 @@
  </li>
 </ul>
 <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%201%20-%20Graphs.html">
+   Chapter 1 - Graphs
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Chapter 1 - Graphs
+   Chapter 2 - Functions and Graphs
   </a>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="Section%201.1%20-%20The%20Distance%20and%20Midpoint%20Formulas.html">
-     Section 1.1 - The Distance and Midpoint Formulas, Graphing Utilities, and Introduction to Graphing Equations
+    <a class="reference internal" href="Section%202.1%20-%20Functions.html">
+     Section 2.1 - Functions
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="Section%201.2%20-%20Intercepts%2C%20Symmetry%2C%20Graphing%20Key%20Equations.html">
-     Section 1.2 - Intercepts, Symmetry, Graphing Key Equations
+    <a class="reference internal" href="Section%202.2%20-%20The%20Graph%20of%20a%20Function.html">
+     Section 2.2 - The Graph of a Function
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="Section%201.3%20-%20Solving%20Equations%20Algebraically%20and%20Graphically.html">
-     Section 1.3 - Solving Equations Algebraically and Graphically (Optional)
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="Section%201.4%20-%20Straight%20Lines.html">
-     Section 1.4 - Straight Lines
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="Section%201.5%20-%20Circles.html">
-     Section 1.5 - Circles
+    <a class="reference internal" href="Section%202.3%20-%20Functions%20and%20their%20Graphs.html">
+     Section 2.3 - Functions and their Graphs
     </a>
    </li>
   </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%202%20-%20Functions%20and%20Graphs.html">
-   Chapter 2 - Functions and Graphs
-  </a>
  </li>
 </ul>
 
@@ -178,7 +168,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/Chapter 1 - Graphs.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/Chapter 2 - Functions and Graphs.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -198,7 +188,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter 1 - Graphs.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter 2 - Functions and Graphs.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -226,19 +216,9 @@
         
               <div>
                 
-  <div class="section" id="chapter-1-graphs">
-<h1>Chapter 1 - Graphs<a class="headerlink" href="#chapter-1-graphs" title="Permalink to this headline">¶</a></h1>
-<p>In this chapter, we connect algebra and geometry using the rectangular (or Cartesian) coordinate system. In the 1600s, algebra had developed sufficiently so that René Descartes (1596-1650) and Pierre de Fermat (1601-1665) were able to use rectangular coordinates to translate geometry problems into algebra problems, and vice versa. This allowed both geometers and algebraists to gain new insights into their subjects, which were thought to be separate, but now were seen as connected.</p>
-<p><strong>René Descartes and the Fly on the Ceiling</strong></p>
-<img src="descartes_lead.jpg">
-<p>The coordinate system we commonly use is called the Cartesian system, after the French mathematician René Descartes (1596-1650), who developed it in the 17th century. Legend has it that Descartes, who liked to stay in bed until late, was watching a fly on the ceiling from his bed. He wondered how to best describe the fly’s location and decided that one of the corners of the ceiling could be used as a reference point.</p>
-<p>Imagine the ceiling as a rectangle drawn on a piece of paper: taking the left bottom corner as the reference point, you can specify the location of the fly by measuring how far you need to go in the horizontal direction and how far you need to go in the vertical direction to get to it. These two number are the fly’s coordinates. Every pair of coordinates specifies a unique point on the ceiling and every point on the ceiling comes with a unique pair of coordinates. It’s possible to extend this idea, allowing the axes (the two sides of the room) to become infinitely long in both directions, and using negative numbers to label the bottom part of the vertical axis and the left part of the horizontal axis. That way you can specify all points on an infinite plane.</p>
-<p>Descartes’ coordinate system created a link between algebra and geometry. Geometric shapes, such as circles, could now be described algebraically using the coordinates of the points that make up the shapes. For example, a circle centred on the point with coordinates <span class="math notranslate nohighlight">\((0,0)\)</span> and of radius <span class="math notranslate nohighlight">\(2\)</span> is given by the equation</p>
-<div class="math notranslate nohighlight">
-\[x^2+y^2=2^2\]</div>
-<p>All points whose coordinates <span class="math notranslate nohighlight">\((x,y)\)</span> satisfy this equation lie on the circle, and all points on the circle have coordinates satisfying the equation. Using such a coordinate system it is possible to solve geometric problems using algebra, and vice versa.</p>
-<p>Descartes produced many other works in mathematics, science and philosophy. You might have heard of his famous quote, <em>“I think, therefore I am”</em>. And he would undoubtedly have gone on to produce more, had he not died at the relatively young age of 53. His habit of sleeping until 11am had been brutally disrupted by Queen Christina of Sweden, who persuaded him to go to Stockholm in 1649 and wanted to do maths with him at 5 o’clock every morning. Descartes endured the early mornings and the Scandinavian cold for a few months, but eventually contracted pneumonia and died.</p>
-<p>©University of Cambridge</p>
+  <div class="section" id="chapter-2-functions-and-graphs">
+<h1>Chapter 2 - Functions and Graphs<a class="headerlink" href="#chapter-2-functions-and-graphs" title="Permalink to this headline">¶</a></h1>
+<p>In this chapter, we look at function, its properties, and applications. The concept of function evolved over time. The word “function” was applied differently by different mathematicians. It was first introduced by Rene Descartes in 1637. To him, a function was a positive integral power of a variable. Leibniz (1646-1716) used the word function to denote any quantity associated with a curve, such as the coordinates of a point on the curve. Euler (1707-1783) used the word to mean any equation or formula involving variables and constants. later, Dirichlet (1805-1859) described the function as a correspondence between two sets. This definition is used in the text - <strong>Sullivan and Sullivan</strong>.</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -271,8 +251,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">MAT 1350 Precalculus</a>
-    <a class='right-next' id="next-link" href="Section%201.1%20-%20The%20Distance%20and%20Midpoint%20Formulas.html" title="next page">Section 1.1 - The Distance and Midpoint Formulas, Graphing Utilities, and Introduction to Graphing Equations</a>
+    <a class='left-prev' id="prev-link" href="Section%201.5%20-%20Circles.html" title="previous page">Section 1.5 - Circles</a>
+    <a class='right-next' id="next-link" href="Section%202.1%20-%20Functions.html" title="next page">Section 2.1 - Functions</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
