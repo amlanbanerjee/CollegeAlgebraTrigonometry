@@ -15,4 +15,10 @@ Refer each chapter to find some selected problems and solutions from **Sullivan 
     - Section 2.3 - Functions and their Graphs
     - Section 2.4 - Piecewise-defined Functions
     - Section 2.5 - Graphing Techniques - Transformations
-    
+    - Chapter 2 - Cumulative Review
+- Chapter 3 - Linear and Quadratic Functions
+    - Section 3.1 - Properties of Linear Functions and Linear Models
+- Chapter 5 - Polynomials and Rational Functions 
+    - Section 5.1 - Quadratic Functions
+    - Section 5.2 - Power Functions and Polynomial Functions
+    - Section 5.3 - Graphs of Polynomial Functions
