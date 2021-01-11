@@ -1,0 +1,841 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section 5.1 - Quadratic Functions &#8212; College Algebra and Trigonometry</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/differential.jfif" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">College Algebra and Trigonometry</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   MAT 1350 Precalculus
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%201%20-%20Graphs.html">
+   Chapter 1 - Graphs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%202%20-%20Functions%20and%20Graphs.html">
+   Chapter 2 - Functions and Graphs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%203%20-%20Linear%20and%20Quadratic%20Functions.html">
+   Chapter 3 - Linear and Quadratic Functions
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Section 5.1 - Quadratic Functions.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FSection 5.1 - Quadratic Functions.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Section 5.1 - Quadratic Functions.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-general-form-f-x-ax-2-bx-c-qquad-1">
+   <span class="math notranslate nohighlight">
+    \( \text{General form: } f(x) = ax^2 + bx + c \qquad {(1)} \)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-standard-form-f-x-a-x-h-2-k-qquad-2">
+   <span class="math notranslate nohighlight">
+    \( \text{Standard form: } f(x) = a(x-h)^2 + k \qquad {(2)}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#f-x-a-x-r-1-x-r-2-qquad-3">
+   <span class="math notranslate nohighlight">
+    \(f(x) = a(x-r_1)(x-r_2) \qquad{(3)}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#in-ths-us-the-birthrate-b-for-unmarried-women-births-per-1000-unmarried-women-whose-age-is-a-is-modeled-by-the-function-b-a-0-30a-2-16-26a-158-90">
+   1. In ths US, the birthrate
+   <span class="math notranslate nohighlight">
+    \(B\)
+   </span>
+   for unmarried women (births per
+   <span class="math notranslate nohighlight">
+    \(1000\)
+   </span>
+   unmarried women) whose age is
+   <span class="math notranslate nohighlight">
+    \(a\)
+   </span>
+   is modeled by the function:
+   <span class="math notranslate nohighlight">
+    \(B(a)=-0.30a^2+16.26a-158.90\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-what-is-the-age-of-unmarried-women-with-the-highest-birthrate">
+   (a) What is the age of unmarried women with the highest birthrate?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-what-is-the-highest-birthrate-of-unmarried-women">
+   (b) What is the highest birthrate of unmarried women?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-evaluate-and-interpret-b-40">
+   (c) Evaluate and interpret
+   <span class="math notranslate nohighlight">
+    \(B(40)\)
+   </span>
+   ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-accepted-relationship-between-stoppig-distance-d-in-feet-and-the-speed-of-a-car-v-in-mph-is-d-1-1v-0-06v-2-on-dry-level-concrete">
+   2. An accepted relationship between stoppig distance,
+   <span class="math notranslate nohighlight">
+    \(d\)
+   </span>
+   (in feet), and the speed of a car,
+   <span class="math notranslate nohighlight">
+    \(v\)
+   </span>
+   (in mph), is
+   <span class="math notranslate nohighlight">
+    \(d = 1.1v + 0.06v^2\)
+   </span>
+   on dry, level concrete.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-how-many-feet-will-it-take-a-car-travelig-45-mph-to-stop-on-dry-level-concrete">
+   (a) How many feet will it take a car travelig
+   <span class="math notranslate nohighlight">
+    \(45\)
+   </span>
+   mph to stop on dry, level concrete?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-if-an-accident-occurs-200-feet-ahead-of-you-what-is-the-maximum-speed-you-can-be-traveling-to-avoid-being-involved">
+   (b) If an accident occurs
+   <span class="math notranslate nohighlight">
+    \(200\)
+   </span>
+   feet ahead of you, what is the maximum speed you can be traveling to avoid being involved?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-what-might-term-1-1v-represent">
+   (c) What might term
+   <span class="math notranslate nohighlight">
+    \(1.1v\)
+   </span>
+   represent?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-point-on-the-line-y-x-1-that-is-closest-to-point-4-1">
+   3. What point on the line
+   <span class="math notranslate nohighlight">
+    \(y=x+1\)
+   </span>
+   that is closest to point
+   <span class="math notranslate nohighlight">
+    \((4,1)\)
+   </span>
+   ?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-find-a-quadratic-function-whose-x-intercepts-are-5-and-3-with-a-1-a-5">
+   4. (a) Find a quadratic function whose
+   <span class="math notranslate nohighlight">
+    \(x\)
+   </span>
+   -intercepts are
+   <span class="math notranslate nohighlight">
+    \(-5\)
+   </span>
+   and
+   <span class="math notranslate nohighlight">
+    \(3\)
+   </span>
+   with
+   <span class="math notranslate nohighlight">
+    \(a=1\)
+   </span>
+   ;
+   <span class="math notranslate nohighlight">
+    \(a=5\)
+   </span>
+   .
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-how-does-the-value-of-a-affect-the-intercepts">
+   (b) How does the value of
+   <span class="math notranslate nohighlight">
+    \(a\)
+   </span>
+   affect the intercepts?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-how-does-the-value-of-a-affect-the-axis-of-symmetry">
+   (c) How does the value of
+   <span class="math notranslate nohighlight">
+    \(a\)
+   </span>
+   affect the axis of symmetry?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#d-how-does-the-value-of-a-affect-the-vertex">
+   (d) How does the value of
+   <span class="math notranslate nohighlight">
+    \(a\)
+   </span>
+   affect the vertex?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#e-compare-the-x-coordinate-of-the-vertex-with-the-midpoint-of-the-x-intercepts-what-might-you-conclude">
+   (e) Compare the
+   <span class="math notranslate nohighlight">
+    \(x\)
+   </span>
+   -coordinate of the vertex with the midpoint of the
+   <span class="math notranslate nohighlight">
+    \(x\)
+   </span>
+   -intercepts. What might you conclude?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-axis-of-symmetry-x-1">
+   The axis of symmetry:
+   <span class="math notranslate nohighlight">
+    \(x = -1\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   The axis of symmetry:
+   <span class="math notranslate nohighlight">
+    \(x = -1\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-coordinate-grid-has-been-superimposed-over-the-quadratic-path-of-a-basketball-in-the-figure-below-find-an-equation-for-the-path-of-the-ball-does-the-shooter-make-the-basket">
+   5. A coordinate grid has been superimposed over the quadratic path of a basketball in the figure below. Find an equation for the path of the ball. Does the shooter make the basket?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-rock-is-thrown-upward-from-the-top-of-a-112-foot-high-cliff-overlooking-the-ocean-at-a-speed-of-96-feet-per-second-the-rocks-height-at-any-given-time-t-above-ocean-can-be-modeled-by-the-equation-h-t-16t-2-96t-112">
+   6. A rock is thrown upward from the top of a
+   <span class="math notranslate nohighlight">
+    \(112\)
+   </span>
+   -foot high cliff overlooking the ocean at a speed of 96 feet per second. The rock’s height at any given time
+   <span class="math notranslate nohighlight">
+    \(t\)
+   </span>
+   above ocean can be modeled by the equation
+   <span class="math notranslate nohighlight">
+    \(H(t)=−16t^2+96t+112\)
+   </span>
+   .
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-when-does-the-rock-reach-the-maximum-height">
+   ⓐ When does the rock reach the maximum height?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#b-what-is-the-maximum-height-of-the-rock">
+   ⓑ What is the maximum height of the rock?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#c-when-does-the-rock-hit-the-ocean">
+   ⓒ When does the rock hit the ocean?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#write-the-equation-of-the-quadratic-function-that-contains-4-3-and-has-the-shape-of-f-x-5x-2-vertex-is-on-the-y-axis">
+   7. Write the equation of the quadratic function that contains
+   <span class="math notranslate nohighlight">
+    \((4,3)\)
+   </span>
+   and has the shape of
+   <span class="math notranslate nohighlight">
+    \(f(x)=5x^2\)
+   </span>
+   . Vertex is on the
+   <span class="math notranslate nohighlight">
+    \(y\)
+   </span>
+   -axis.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#a-soccer-stadium-holds-62-000-spectators-with-a-ticket-price-of-11-the-average-attendance-has-been-26-000-when-the-price-dropped-to-9-the-average-attendance-rose-to-31-000-assuming-that-attendance-is-linearly-related-to-ticket-price-what-ticket-price-would-maximize-revenue">
+   8. A soccer stadium holds
+   <span class="math notranslate nohighlight">
+    \(62,000\)
+   </span>
+   spectators. With a ticket price of
+   <span class="math notranslate nohighlight">
+    \(\$11\)
+   </span>
+   , the average attendance has been
+   <span class="math notranslate nohighlight">
+    \(26,000\)
+   </span>
+   . When the price dropped to
+   <span class="math notranslate nohighlight">
+    \(\$9\)
+   </span>
+   , the average attendance rose to
+   <span class="math notranslate nohighlight">
+    \(31,000\)
+   </span>
+   . Assuming that attendance is linearly related to ticket price, what ticket price would maximize revenue?
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="section-5-1-quadratic-functions">
+<h1>Section 5.1 - Quadratic Functions<a class="headerlink" href="#section-5-1-quadratic-functions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="text-general-form-f-x-ax-2-bx-c-qquad-1">
+<h2><span class="math notranslate nohighlight">\( \text{General form: } f(x) = ax^2 + bx + c \qquad {(1)} \)</span><a class="headerlink" href="#text-general-form-f-x-ax-2-bx-c-qquad-1" title="Permalink to this headline">¶</a></h2>
+<p><span class="math notranslate nohighlight">\(
+\dfrac{df(x)}{dx} = 2ax + b
+\)</span></p>
+<p>To find maximum or minimum point of the function:</p>
+<p><span class="math notranslate nohighlight">\(
+\dfrac{df(x)}{dx} = 0
+\)</span></p>
+<p>Vertex <span class="math notranslate nohighlight">\((h,k)\)</span>:</p>
+<p><span class="math notranslate nohighlight">\(
+h = -\dfrac{b}{2a}  \\
+k = -\dfrac{b^2}{4a}+c
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(f(x)\)</span> expressed in terms of the vertex of the parabola:</p>
+</div>
+<div class="section" id="text-standard-form-f-x-a-x-h-2-k-qquad-2">
+<h2><span class="math notranslate nohighlight">\( \text{Standard form: } f(x) = a(x-h)^2 + k \qquad {(2)}\)</span><a class="headerlink" href="#text-standard-form-f-x-a-x-h-2-k-qquad-2" title="Permalink to this headline">¶</a></h2>
+<p><span class="math notranslate nohighlight">\(f(x)\)</span> expressed in terms of the <span class="math notranslate nohighlight">\(x\)</span>-intercepts :</p>
+<p><span class="math notranslate nohighlight">\(f(x) = 0\)</span> has two roots of <span class="math notranslate nohighlight">\(x\)</span>, given <span class="math notranslate nohighlight">\((b^2 - 4ac) \ge 0\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+ax^2 + bx + c = 0  \\
+\text{The solutions of x:}  \\
+r_1 = \dfrac{-b+\sqrt{b^2-4ac}}{2a} \\
+r_2 = \dfrac{-b-\sqrt{b^2-4ac}}{2a}
+\)</span></p>
+<p>It can be shown that:</p>
+</div>
+<div class="section" id="f-x-a-x-r-1-x-r-2-qquad-3">
+<h2><span class="math notranslate nohighlight">\(f(x) = a(x-r_1)(x-r_2) \qquad{(3)}\)</span><a class="headerlink" href="#f-x-a-x-r-1-x-r-2-qquad-3" title="Permalink to this headline">¶</a></h2>
+<p>From the roots of <span class="math notranslate nohighlight">\(x\)</span>, we can also derive the expression of <span class="math notranslate nohighlight">\(h\)</span>, which is basically the midpoint of <span class="math notranslate nohighlight">\(r_1\)</span> and <span class="math notranslate nohighlight">\(r_2\)</span>:</p>
+<p><span class="math notranslate nohighlight">\(
+h = \dfrac{\dfrac{-b+\sqrt{b^2-4ac}}{2a} + \dfrac{-b-\sqrt{b^2-4ac}}{2a}}{2} = -\dfrac{b}{2a} \\
+k = f(-\dfrac{b}{2a}) =  -\dfrac{b^2}{4a}+c
+\)</span></p>
+</div>
+<div class="section" id="in-ths-us-the-birthrate-b-for-unmarried-women-births-per-1000-unmarried-women-whose-age-is-a-is-modeled-by-the-function-b-a-0-30a-2-16-26a-158-90">
+<h2>1. In ths US, the birthrate <span class="math notranslate nohighlight">\(B\)</span> for unmarried women (births per <span class="math notranslate nohighlight">\(1000\)</span> unmarried women) whose age is <span class="math notranslate nohighlight">\(a\)</span> is modeled by the function: <span class="math notranslate nohighlight">\(B(a)=-0.30a^2+16.26a-158.90\)</span><a class="headerlink" href="#in-ths-us-the-birthrate-b-for-unmarried-women-births-per-1000-unmarried-women-whose-age-is-a-is-modeled-by-the-function-b-a-0-30a-2-16-26a-158-90" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="a-what-is-the-age-of-unmarried-women-with-the-highest-birthrate">
+<h2>(a) What is the age of unmarried women with the highest birthrate?<a class="headerlink" href="#a-what-is-the-age-of-unmarried-women-with-the-highest-birthrate" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="b-what-is-the-highest-birthrate-of-unmarried-women">
+<h2>(b) What is the highest birthrate of unmarried women?<a class="headerlink" href="#b-what-is-the-highest-birthrate-of-unmarried-women" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="c-evaluate-and-interpret-b-40">
+<h2>(c) Evaluate and interpret <span class="math notranslate nohighlight">\(B(40)\)</span>?<a class="headerlink" href="#c-evaluate-and-interpret-b-40" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Solution:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Plot the function&quot;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;h1&gt;&lt;iframe src=&quot;https://www.desmos.com/calculator/spnhkkwhx8?embed&quot; width=&quot;500px&quot; height=&quot;500px&quot; style=&quot;border: 1px solid #ccc&quot; frameborder=0&gt;&lt;/iframe&gt;&lt;/h1&gt;&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Solution:
+Plot the function
+</pre></div>
+</div>
+<div class="output text_html"><h1><iframe src="https://www.desmos.com/calculator/spnhkkwhx8?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></h1></div></div>
+</div>
+<p>(a) The age of unmarried women with the highest birthrate <span class="math notranslate nohighlight">\((h,k)\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+h = -\dfrac{16.26}{2(-0.30)} = 27.1
+\)</span></p>
+<p>(b) The highest birthrate of unmarried women</p>
+<p><span class="math notranslate nohighlight">\(
+k = -\dfrac{16.26^2}{4(-0.30)} + 158.90 = 61.42
+\)</span></p>
+<p>(c)</p>
+<p>Birth rate of unmarried women of age 40 yr</p>
+<p><span class="math notranslate nohighlight">\(
+B(40) = -(0.30)(40)^2+16.26(40)-158.9 = 11.5 \text { births per 1000 unmarried women}
+\)</span></p>
+</div>
+<div class="section" id="an-accepted-relationship-between-stoppig-distance-d-in-feet-and-the-speed-of-a-car-v-in-mph-is-d-1-1v-0-06v-2-on-dry-level-concrete">
+<h2>2. An accepted relationship between stoppig distance, <span class="math notranslate nohighlight">\(d\)</span> (in feet), and the speed of a car, <span class="math notranslate nohighlight">\(v\)</span> (in mph), is <span class="math notranslate nohighlight">\(d = 1.1v + 0.06v^2\)</span> on dry, level concrete.<a class="headerlink" href="#an-accepted-relationship-between-stoppig-distance-d-in-feet-and-the-speed-of-a-car-v-in-mph-is-d-1-1v-0-06v-2-on-dry-level-concrete" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="a-how-many-feet-will-it-take-a-car-travelig-45-mph-to-stop-on-dry-level-concrete">
+<h2>(a) How many feet will it take a car travelig <span class="math notranslate nohighlight">\(45\)</span> mph to stop on dry, level concrete?<a class="headerlink" href="#a-how-many-feet-will-it-take-a-car-travelig-45-mph-to-stop-on-dry-level-concrete" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="b-if-an-accident-occurs-200-feet-ahead-of-you-what-is-the-maximum-speed-you-can-be-traveling-to-avoid-being-involved">
+<h2>(b) If an accident occurs <span class="math notranslate nohighlight">\(200\)</span> feet ahead of you, what is the maximum speed you can be traveling to avoid being involved?<a class="headerlink" href="#b-if-an-accident-occurs-200-feet-ahead-of-you-what-is-the-maximum-speed-you-can-be-traveling-to-avoid-being-involved" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="c-what-might-term-1-1v-represent">
+<h2>(c) What might term <span class="math notranslate nohighlight">\(1.1v\)</span> represent?<a class="headerlink" href="#c-what-might-term-1-1v-represent" title="Permalink to this headline">¶</a></h2>
+<p>Solution:</p>
+<p>(a)</p>
+<p>At <span class="math notranslate nohighlight">\(v = 45 \ mph,\)</span>
+<span class="math notranslate nohighlight">\(
+d = 1.1v + 0.06v^2 \\
+d = 1.1(45) + 0.06(45)^2 \\
+d = 171 \text{ ft}
+\)</span></p>
+<p>(b)</p>
+<p>At <span class="math notranslate nohighlight">\(d = 200 \ ft\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+200 = 1.1v + 0.06v^2 \\
+\implies 0.06v^2 + 1.1v - 200 = 0 \\
+\implies v = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \dfrac{-1.1 \pm \sqrt{1.1^2 - 4(0.06)(-200)}}{2(0.06)} \\
+v = 49.292, -67.625  \\
+v = 49.292 \ mph \ (Ans.)
+\)</span></p>
+<p>(c) <span class="math notranslate nohighlight">\(1.1v\)</span> represents the reaction time.</p>
+</div>
+<div class="section" id="what-point-on-the-line-y-x-1-that-is-closest-to-point-4-1">
+<h2>3. What point on the line <span class="math notranslate nohighlight">\(y=x+1\)</span> that is closest to point <span class="math notranslate nohighlight">\((4,1)\)</span>?<a class="headerlink" href="#what-point-on-the-line-y-x-1-that-is-closest-to-point-4-1" title="Permalink to this headline">¶</a></h2>
+<p>Solution:</p>
+<p>Suppose, the point <span class="math notranslate nohighlight">\((x,y)\)</span> is on the line <span class="math notranslate nohighlight">\(y=x+1\)</span> that is closest to the point <span class="math notranslate nohighlight">\((4,1)\)</span>.</p>
+<p>The distance between <span class="math notranslate nohighlight">\((x,y)\)</span> and <span class="math notranslate nohighlight">\((4,1)\)</span> can be expressed as:</p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+d(x)^2 &amp;= (x-4)^2 + (y-1)^2  \\
+&amp;= (x-4)^2 + (x+1-1)^2 \\
+&amp;= (x^2-8x+16) + x^2 \\
+&amp;= 2x^2 - 8x + 16 \\
+\end{align}
+\)</span></p>
+<p>Notice that <span class="math notranslate nohighlight">\(d(x)\)</span> is a parabolic function of the <span class="math notranslate nohighlight">\(x\)</span> coordinate of the unknown point.</p>
+<p>In the above equation, <span class="math notranslate nohighlight">\(a&gt;0\)</span>, hence the parabolic function has a minimum solution. That solution is the <span class="math notranslate nohighlight">\(x\)</span> coordinate of the point on the straight line <span class="math notranslate nohighlight">\(y=x+1\)</span> that is nearest to the point <span class="math notranslate nohighlight">\((4,1)\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(
+\therefore x = -\dfrac{b}{2a} = -\dfrac{-8}{2(2)} = 2  \\
+\therefore y = x + 1 = 3.
+\)</span></p>
+</div>
+<div class="section" id="a-find-a-quadratic-function-whose-x-intercepts-are-5-and-3-with-a-1-a-5">
+<h2>4. (a) Find a quadratic function whose <span class="math notranslate nohighlight">\(x\)</span>-intercepts are <span class="math notranslate nohighlight">\(-5\)</span> and <span class="math notranslate nohighlight">\(3\)</span> with <span class="math notranslate nohighlight">\(a=1\)</span>; <span class="math notranslate nohighlight">\(a=5\)</span>.<a class="headerlink" href="#a-find-a-quadratic-function-whose-x-intercepts-are-5-and-3-with-a-1-a-5" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="b-how-does-the-value-of-a-affect-the-intercepts">
+<h2>(b) How does the value of <span class="math notranslate nohighlight">\(a\)</span> affect the intercepts?<a class="headerlink" href="#b-how-does-the-value-of-a-affect-the-intercepts" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="c-how-does-the-value-of-a-affect-the-axis-of-symmetry">
+<h2>(c) How does the value of <span class="math notranslate nohighlight">\(a\)</span> affect the axis of symmetry?<a class="headerlink" href="#c-how-does-the-value-of-a-affect-the-axis-of-symmetry" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="d-how-does-the-value-of-a-affect-the-vertex">
+<h2>(d) How does the value of <span class="math notranslate nohighlight">\(a\)</span> affect the vertex?<a class="headerlink" href="#d-how-does-the-value-of-a-affect-the-vertex" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="e-compare-the-x-coordinate-of-the-vertex-with-the-midpoint-of-the-x-intercepts-what-might-you-conclude">
+<h2>(e) Compare the <span class="math notranslate nohighlight">\(x\)</span>-coordinate of the vertex with the midpoint of the <span class="math notranslate nohighlight">\(x\)</span>-intercepts. What might you conclude?<a class="headerlink" href="#e-compare-the-x-coordinate-of-the-vertex-with-the-midpoint-of-the-x-intercepts-what-might-you-conclude" title="Permalink to this headline">¶</a></h2>
+<p>Solution:</p>
+<p>(a) We can use the intercept form of the quadratic equation:</p>
+<p><span class="math notranslate nohighlight">\(r_1 = -5, r_2 = 3 \)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+a = 1 \\
+f(x) &amp;= a(x-r_1)(x-r_2) \\
+&amp;= 1(x+5)(x-3) \\
+f(x) &amp;= x^2 + 2x - 15 \qquad (1) \\
+\end{align}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+a = 5 \\
+f(x)&amp;= 5(x+5)(x-3) \\
+f(x) &amp;= 5x^2 + 10x - 75 \qquad (2) \\
+\end{align}
+\)</span></p>
+<p>(b) The <span class="math notranslate nohighlight">\(x\)</span>-intercepts are not affected by <span class="math notranslate nohighlight">\(a\)</span>, but the <span class="math notranslate nohighlight">\(y\)</span>-intercept changes by the factor of <span class="math notranslate nohighlight">\(a\)</span>.</p>
+<p>From equation <span class="math notranslate nohighlight">\((1)\)</span>, we get <span class="math notranslate nohighlight">\(f(x=0)= -15\)</span><br />
+From equation <span class="math notranslate nohighlight">\((2)\)</span>, we get <span class="math notranslate nohighlight">\(f(x=0)= -75\)</span></p>
+<p>We see that the intercept of function <span class="math notranslate nohighlight">\((2)\)</span> is <span class="math notranslate nohighlight">\(5\)</span> times the intercept of function <span class="math notranslate nohighlight">\((1)\)</span>.</p>
+<p>(c)</p>
+<p>From function <span class="math notranslate nohighlight">\((1)\)</span>, <span class="math notranslate nohighlight">\(f(x) = x^2 + 2x - 15\)</span>,</p>
+<p><span class="math notranslate nohighlight">\(
+h = -\dfrac{b}{2a} = -\dfrac{2}{2} = -1 \\
+k = -\dfrac{b^2}{4a}+c = -\dfrac{2^2}{4(1)}-15 = -16 
+\)</span></p>
+</div>
+<div class="section" id="the-axis-of-symmetry-x-1">
+<h2>The axis of symmetry: <span class="math notranslate nohighlight">\(x = -1\)</span><a class="headerlink" href="#the-axis-of-symmetry-x-1" title="Permalink to this headline">¶</a></h2>
+<p>From function <span class="math notranslate nohighlight">\((1)\)</span>, <span class="math notranslate nohighlight">\(f(x) = 5x^2 + 10x - 75\)</span>,</p>
+<p><span class="math notranslate nohighlight">\(
+h = -\dfrac{b}{2a} = -\dfrac{10}{10} = -1  \\
+k = -\dfrac{b^2}{4a}+c = -\dfrac{10^2}{4(5)} - 75  = -80
+\)</span></p>
+</div>
+<div class="section" id="id1">
+<h2>The axis of symmetry: <span class="math notranslate nohighlight">\(x = -1\)</span><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>We find that the axis of symmetry is not affected by <span class="math notranslate nohighlight">\(a\)</span> if the <span class="math notranslate nohighlight">\(x\)</span>-intercepts do not change.</p>
+<p>(d) From (c), we find that the vertex shifted from <span class="math notranslate nohighlight">\((-1,-16)\)</span> to <span class="math notranslate nohighlight">\((-1,-80)\)</span>.</p>
+<p>(e) The midpoint of the <span class="math notranslate nohighlight">\(x\)</span>-intercepts is <span class="math notranslate nohighlight">\(\dfrac{-5+3}{2} = -1\)</span>. Hence, the <span class="math notranslate nohighlight">\(x\)</span>-coordinate of the vertex is equal to the midpoint of the <span class="math notranslate nohighlight">\(x\)</span>-intercepts.</p>
+</div>
+<div class="section" id="a-coordinate-grid-has-been-superimposed-over-the-quadratic-path-of-a-basketball-in-the-figure-below-find-an-equation-for-the-path-of-the-ball-does-the-shooter-make-the-basket">
+<h2>5. A coordinate grid has been superimposed over the quadratic path of a basketball in the figure below. Find an equation for the path of the ball. Does the shooter make the basket?<a class="headerlink" href="#a-coordinate-grid-has-been-superimposed-over-the-quadratic-path-of-a-basketball-in-the-figure-below-find-an-equation-for-the-path-of-the-ball-does-the-shooter-make-the-basket" title="Permalink to this headline">¶</a></h2>
+<img src="section_5_1_figure_8.jfif"><p>Solution:</p>
+<p>From the figure, we can’t tell for sure the coordinate of the vertex. Hence, we simply solve for <span class="math notranslate nohighlight">\(a, b,\)</span> and <span class="math notranslate nohighlight">\(c\)</span> in the general form of the quadratic equation: <span class="math notranslate nohighlight">\(y = ax^2+bx+c\)</span>.</p>
+<p>We first choose three points from the ball’s trajectory: <span class="math notranslate nohighlight">\((0,0), (-2,5),\)</span> and <span class="math notranslate nohighlight">\((-4,7)\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(
+x = 0, y = 0  \\
+0 = a(0)+b(0)+c  \\
+c = 0   \qquad (1)
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+x = -2, y = 5  \\
+5 = 4a -2b \qquad (2) 
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+x = -4, y = 7  \\
+7 = 16a -4b \qquad (3) 
+\)</span></p>
+<p>Solving <span class="math notranslate nohighlight">\((2)\)</span> and <span class="math notranslate nohighlight">\((3)\)</span>, we get,</p>
+<p><span class="math notranslate nohighlight">\(a = -0.375, b = -3.25\)</span></p>
+<p>Hence, the equation of the trajectory is <span class="math notranslate nohighlight">\(y = -0.375x^2 - 3.25x \qquad (4)\)</span></p>
+<p>Now, the <span class="math notranslate nohighlight">\(x\)</span>-coordinate of the center of basket is <span class="math notranslate nohighlight">\(-7.5\)</span>.</p>
+<p>When <span class="math notranslate nohighlight">\(x = -7.5\)</span>,
+<span class="math notranslate nohighlight">\(
+y = -0.375(-7.5)^2 - 3.25(-7.5) = 3.281
+\)</span></p>
+<p>Yes, it appears that the shooter scored!</p>
+</div>
+<div class="section" id="a-rock-is-thrown-upward-from-the-top-of-a-112-foot-high-cliff-overlooking-the-ocean-at-a-speed-of-96-feet-per-second-the-rocks-height-at-any-given-time-t-above-ocean-can-be-modeled-by-the-equation-h-t-16t-2-96t-112">
+<h2>6. A rock is thrown upward from the top of a <span class="math notranslate nohighlight">\(112\)</span>-foot high cliff overlooking the ocean at a speed of 96 feet per second. The rock’s height at any given time <span class="math notranslate nohighlight">\(t\)</span> above ocean can be modeled by the equation <span class="math notranslate nohighlight">\(H(t)=−16t^2+96t+112\)</span>.<a class="headerlink" href="#a-rock-is-thrown-upward-from-the-top-of-a-112-foot-high-cliff-overlooking-the-ocean-at-a-speed-of-96-feet-per-second-the-rocks-height-at-any-given-time-t-above-ocean-can-be-modeled-by-the-equation-h-t-16t-2-96t-112" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="a-when-does-the-rock-reach-the-maximum-height">
+<h2>ⓐ When does the rock reach the maximum height?<a class="headerlink" href="#a-when-does-the-rock-reach-the-maximum-height" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="b-what-is-the-maximum-height-of-the-rock">
+<h2>ⓑ What is the maximum height of the rock?<a class="headerlink" href="#b-what-is-the-maximum-height-of-the-rock" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="c-when-does-the-rock-hit-the-ocean">
+<h2>ⓒ When does the rock hit the ocean?<a class="headerlink" href="#c-when-does-the-rock-hit-the-ocean" title="Permalink to this headline">¶</a></h2>
+<p>Solution:</p>
+<p>ⓐ <span class="math notranslate nohighlight">\(H(t)=−16t^2+96t+112\)</span></p>
+<p>The rock reaches the maximum height at the vertex <span class="math notranslate nohighlight">\((h,k)\)</span> of the parabola, where <span class="math notranslate nohighlight">\(h\)</span> represents the time taken by the rock to reach the maximum height, and <span class="math notranslate nohighlight">\(k\)</span> represents the maximum height attained by the rock.</p>
+<p><span class="math notranslate nohighlight">\(
+h = -\dfrac{b}{2a} = -\dfrac{96}{2(-16)} = 3 \ sec \text{ (This is the time to reach the maximum height.)} \\
+\)</span></p>
+<p>ⓑ Maximum height of the rock:
+<span class="math notranslate nohighlight">\(
+k = −16(3)^2+96(3)+112 = 256 \ ft
+\)</span></p>
+<p>ⓒ At ocean surface, <span class="math notranslate nohighlight">\(H(t) = 0\)</span></p>
+<p>Using the standard form:
+<span class="math notranslate nohighlight">\(
+-16(t-3)^2 + 256 = 0  \\
+\implies (t-3)^2 = 16  \\
+\implies t-3 = \pm 4  \\
+\implies t = 7, -1 \ sec
+\)</span></p>
+<p>Hence, the rock will hit the ocean <span class="math notranslate nohighlight">\(7\)</span> sec after it was thrown.</p>
+</div>
+<div class="section" id="write-the-equation-of-the-quadratic-function-that-contains-4-3-and-has-the-shape-of-f-x-5x-2-vertex-is-on-the-y-axis">
+<h2>7. Write the equation of the quadratic function that contains <span class="math notranslate nohighlight">\((4,3)\)</span> and has the shape of <span class="math notranslate nohighlight">\(f(x)=5x^2\)</span>. Vertex is on the <span class="math notranslate nohighlight">\(y\)</span>-axis.<a class="headerlink" href="#write-the-equation-of-the-quadratic-function-that-contains-4-3-and-has-the-shape-of-f-x-5x-2-vertex-is-on-the-y-axis" title="Permalink to this headline">¶</a></h2>
+<p>Solution:</p>
+<p>From the given equation, we know stretch factor <span class="math notranslate nohighlight">\((a) = 5\)</span> and <span class="math notranslate nohighlight">\(h = 0\)</span>.</p>
+<p>Let’s write the standard form:</p>
+<p><span class="math notranslate nohighlight">\(
+f(x) = a(x-h)^2 + k  \\
+3 = 5(4-0)^2 + k \\
+\implies 3 = 80 + k \\
+\implies k = -77
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(f(x) = 5x^2 - 77\)</span></p>
+</div>
+<div class="section" id="a-soccer-stadium-holds-62-000-spectators-with-a-ticket-price-of-11-the-average-attendance-has-been-26-000-when-the-price-dropped-to-9-the-average-attendance-rose-to-31-000-assuming-that-attendance-is-linearly-related-to-ticket-price-what-ticket-price-would-maximize-revenue">
+<h2>8. A soccer stadium holds <span class="math notranslate nohighlight">\(62,000\)</span> spectators. With a ticket price of <span class="math notranslate nohighlight">\(\$11\)</span>, the average attendance has been <span class="math notranslate nohighlight">\(26,000\)</span>. When the price dropped to <span class="math notranslate nohighlight">\(\$9\)</span>, the average attendance rose to <span class="math notranslate nohighlight">\(31,000\)</span>. Assuming that attendance is linearly related to ticket price, what ticket price would maximize revenue?<a class="headerlink" href="#a-soccer-stadium-holds-62-000-spectators-with-a-ticket-price-of-11-the-average-attendance-has-been-26-000-when-the-price-dropped-to-9-the-average-attendance-rose-to-31-000-assuming-that-attendance-is-linearly-related-to-ticket-price-what-ticket-price-would-maximize-revenue" title="Permalink to this headline">¶</a></h2>
+<p>Solution:</p>
+<p>The revenue will be maximized if the stadium is filled at its capacity. Let’s write the quadratic equation describing this problem in standard form, in which the vertex is located at <span class="math notranslate nohighlight">\((h,62000)\)</span>. The value of <span class="math notranslate nohighlight">\(h\)</span> is the ticker price at which the revenue will maximize.</p>
+<p><span class="math notranslate nohighlight">\(
+f(x) = a(x-h)^2 + k \\
+\)</span></p>
+<p>Now the parabola passes through two points <span class="math notranslate nohighlight">\((11,26000)\)</span> and <span class="math notranslate nohighlight">\((9,31000)\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(
+26000 = a(11-h)^2 + 62000  \\
+a(11-h)^2 = -36000  \qquad (1) \\
+31000 = a( = -31000 -h)^2 + 62000 \\
+a(9-h)^2 = -31000 \qquad (2) \\
+\)</span></p>
+<p>Divide <span class="math notranslate nohighlight">\((1)\)</span> by <span class="math notranslate nohighlight">\((2)\)</span>, we get,</p>
+<p><span class="math notranslate nohighlight">\(
+\dfrac{(11-h)^2}{(9-h)^2} = \dfrac{36}{31} \qquad (3) \\
+\)</span></p>
+<p>Solving <span class="math notranslate nohighlight">\((3)\)</span>,</p>
+<p><span class="math notranslate nohighlight">\(h=−16.762634 \ or \ h=9.962634\)</span></p>
+<p>Hence, a ticket price of approx. <span class="math notranslate nohighlight">\( \$10 \)</span> would maximize revenue.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Amlan Banerjee, Ph.D.<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

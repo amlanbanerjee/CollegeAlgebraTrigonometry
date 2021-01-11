@@ -25,8 +25,8 @@
     href="_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -40,7 +40,6 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
@@ -134,6 +133,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="Chapter%202%20-%20Functions%20and%20Graphs.html">
    Chapter 2 - Functions and Graphs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%203%20-%20Linear%20and%20Quadratic%20Functions.html">
+   Chapter 3 - Linear and Quadratic Functions
   </a>
  </li>
 </ul>
@@ -307,6 +311,30 @@
 y = \dfrac{3x}{x^2+9}  \\
 \)</span></p>
 <p>The final equation is same as the original equation, hence the equation is symmetric with respect to the origin.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span> 
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
+<span class="n">xmin</span><span class="o">=-</span><span class="mi">100</span>
+<span class="n">xmax</span><span class="o">=</span><span class="mi">100</span>
+<span class="c1"># setting the x - coordinates </span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">xmin</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="mf">0.0001</span><span class="p">)</span>
+<span class="c1"># setting the corresponding y - coordinates </span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="mi">9</span><span class="p">)</span>
+
+<span class="c1"># potting the points </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">hlines</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">xmin</span><span class="o">=</span><span class="n">xmin</span><span class="p">,</span><span class="n">xmax</span><span class="o">=</span><span class="n">xmax</span><span class="p">,</span> <span class="n">linestyles</span><span class="o">=</span><span class="s2">&quot;dashed&quot;</span><span class="p">)</span>
+  
+<span class="c1"># function to show the plot </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/Section 1.2 - Intercepts, Symmetry, Graphing Key Equations_5_0.png" src="_images/Section 1.2 - Intercepts, Symmetry, Graphing Key Equations_5_0.png" />
+</div>
+</div>
 </div>
 <div class="section" id="x-2-y-2-x-2-x-2-y-2">
 <h2>2. <span class="math notranslate nohighlight">\((x^2 + y^2 - x)^2 = x^2 + y^2\)</span><a class="headerlink" href="#x-2-y-2-x-2-x-2-y-2" title="Permalink to this headline">¶</a></h2>

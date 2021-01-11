@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section 5.3 - Graphs of Polynomial Functions &#8212; College Algebra and Trigonometry</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.2d2078699c18a0efb88233928e1cf6ed.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/differential.jfif" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">College Algebra and Trigonometry</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   MAT 1350 Precalculus
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%201%20-%20Graphs.html">
+   Chapter 1 - Graphs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%202%20-%20Functions%20and%20Graphs.html">
+   Chapter 2 - Functions and Graphs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%203%20-%20Linear%20and%20Quadratic%20Functions.html">
+   Chapter 3 - Linear and Quadratic Functions
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Section 5.3 - Graphs of Polynomial Functions.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FSection 5.3 - Graphs of Polynomial Functions.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Section 5.3 - Graphs of Polynomial Functions.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#find-the-y-and-x-intercepts-of-the-function-f-x-x-419x-2-30x">
+   1. Find the
+   <span class="math notranslate nohighlight">
+    \(y\)
+   </span>
+   - and
+   <span class="math notranslate nohighlight">
+    \(x\)
+   </span>
+   -intercepts of the function
+   <span class="math notranslate nohighlight">
+    \(f(x)=x^4−19x^2+30x\)
+   </span>
+   .
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#writing-a-formula-for-a-polynomial-function-of-degree-9-from-the-graph">
+   2. Writing a formula for a polynomial function of degree
+   <span class="math notranslate nohighlight">
+    \(9\)
+   </span>
+   from the Graph.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sketch-the-graph-of-f-x-dfrac-1-4-x-x-1-4-x-3-3">
+   3. Sketch the graph of
+   <span class="math notranslate nohighlight">
+    \(f(x) = \dfrac{1}{4}x(x-1)^4(x+3)^3\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#find-intercepts-and-multiplicities-of-the-following-functions">
+   4. Find intercepts and multiplicities of the following functions:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#find-f-x-given-double-zero-at-x-3-and-triple-zero-at-x-0-passes-through-the-point-1-32">
+   5. Find
+   <span class="math notranslate nohighlight">
+    \(f(x)\)
+   </span>
+   . Given, double zero at
+   <span class="math notranslate nohighlight">
+    \(x=−3\)
+   </span>
+   and triple zero at
+   <span class="math notranslate nohighlight">
+    \(x=0\)
+   </span>
+   . Passes through the point
+   <span class="math notranslate nohighlight">
+    \((1,32)\)
+   </span>
+   .
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#find-f-x-given-degree-5-roots-of-multiplicity-2-at-x-3-and-x-2-and-a-root-of-multiplicity-1-at-x-2-y-intercept-at-0-4">
+   6. Find
+   <span class="math notranslate nohighlight">
+    \(f(x)\)
+   </span>
+   . Given, degree
+   <span class="math notranslate nohighlight">
+    \(5\)
+   </span>
+   . roots of multiplicity
+   <span class="math notranslate nohighlight">
+    \(2\)
+   </span>
+   at
+   <span class="math notranslate nohighlight">
+    \(x=−3\)
+   </span>
+   and
+   <span class="math notranslate nohighlight">
+    \(x=2\)
+   </span>
+   and a root of multiplicity
+   <span class="math notranslate nohighlight">
+    \(1\)
+   </span>
+   at
+   <span class="math notranslate nohighlight">
+    \(x=−2\)
+   </span>
+   .
+   <span class="math notranslate nohighlight">
+    \(y\)
+   </span>
+   -intercept at
+   <span class="math notranslate nohighlight">
+    \((0, 4).\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#use-the-graphs-to-write-a-polynomial-function-of-least-degree">
+   7. Use the graphs to write a polynomial function of least degree.
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="section-5-3-graphs-of-polynomial-functions">
+<h1>Section 5.3 - Graphs of Polynomial Functions<a class="headerlink" href="#section-5-3-graphs-of-polynomial-functions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="find-the-y-and-x-intercepts-of-the-function-f-x-x-419x-2-30x">
+<h2>1. Find the <span class="math notranslate nohighlight">\(y\)</span>- and <span class="math notranslate nohighlight">\(x\)</span>-intercepts of the function <span class="math notranslate nohighlight">\(f(x)=x^4−19x^2+30x\)</span>.<a class="headerlink" href="#find-the-y-and-x-intercepts-of-the-function-f-x-x-419x-2-30x" title="Permalink to this headline">¶</a></h2>
+<p><strong>Solution:</strong></p>
+<p>This polynomial is not in factored form, has no common factors, and does not appear to be factorable using techniques previously discussed. Fortunately, we can use technology to find the intercepts. Keep in mind that some values make graphing difficult by hand. In these cases, we can take advantage of graphing utilities.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;h1&gt;&lt;iframe src=&quot;https://www.desmos.com/calculator/9tvgvknksa?embed&quot; width=&quot;500px&quot; height=&quot;500px&quot; style=&quot;border: 1px solid #ccc&quot; frameborder=0&gt;&lt;/iframe&gt;&lt;/h1&gt;&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><h1><iframe src="https://www.desmos.com/calculator/9tvgvknksa?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></h1></div></div>
+</div>
+<p>From the graph, the <span class="math notranslate nohighlight">\(x\)</span> intercepts are: <span class="math notranslate nohighlight">\((-5, 0, 2, 3)\)</span>, and the <span class="math notranslate nohighlight">\(y\)</span>-intercept is <span class="math notranslate nohighlight">\(0\)</span>.</p>
+<p>In factored form, the polynomial can be expressed as:</p>
+<p><span class="math notranslate nohighlight">\(f(x) = x(x+5)(x-2)(x-3)\)</span></p>
+</div>
+<div class="section" id="writing-a-formula-for-a-polynomial-function-of-degree-9-from-the-graph">
+<h2>2. Writing a formula for a polynomial function of degree <span class="math notranslate nohighlight">\(9\)</span> from the Graph.<a class="headerlink" href="#writing-a-formula-for-a-polynomial-function-of-degree-9-from-the-graph" title="Permalink to this headline">¶</a></h2>
+<img src="section_5_3_figure_10.jfif"><p><strong>Solution</strong></p>
+<p>The polynomial function is of degree <span class="math notranslate nohighlight">\(9\)</span>. The sum of the multiplicities must be <span class="math notranslate nohighlight">\(9\)</span>.</p>
+<p>Starting from the left, the first <span class="math notranslate nohighlight">\(zero\)</span> occurs at <span class="math notranslate nohighlight">\(x=−5\)</span>. The graph crosses the <span class="math notranslate nohighlight">\(x\)</span>-axis, so the multiplicity of the <span class="math notranslate nohighlight">\(zero\)</span> must be odd. The <span class="math notranslate nohighlight">\(zero\)</span> of <span class="math notranslate nohighlight">\(−5\)</span> most likely has multiplicity <span class="math notranslate nohighlight">\(3\)</span>.</p>
+<p>The next <span class="math notranslate nohighlight">\(zero\)</span> occurs at <span class="math notranslate nohighlight">\(x=−1\)</span>. The graph touches <span class="math notranslate nohighlight">\(x-\)</span>axis at this point. The multiplicity of the <span class="math notranslate nohighlight">\(zero\)</span> must be even, which is likely to be <span class="math notranslate nohighlight">\(2\)</span>.</p>
+<p>The last <span class="math notranslate nohighlight">\(zero\)</span> occurs at <span class="math notranslate nohighlight">\(x=3\)</span>. The graph again touches the <span class="math notranslate nohighlight">\(x\)</span>-axis, so the multiplicity of the <span class="math notranslate nohighlight">\(zero\)</span> must be even. However, the graph at <span class="math notranslate nohighlight">\(x=3\)</span> is flatter than at <span class="math notranslate nohighlight">\(x=-1\)</span>. Hence, we know that the multiplicity is likely even and more than <span class="math notranslate nohighlight">\(2\)</span>. It is likely to be <span class="math notranslate nohighlight">\(4\)</span>.</p>
+<p>Total multiplicity <span class="math notranslate nohighlight">\( = (3+2+4) = 9\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(f(x) = (x+5)^3(x+1)^2(x-3)^4\)</span></p>
+</div>
+<div class="section" id="sketch-the-graph-of-f-x-dfrac-1-4-x-x-1-4-x-3-3">
+<h2>3. Sketch the graph of <span class="math notranslate nohighlight">\(f(x) = \dfrac{1}{4}x(x-1)^4(x+3)^3\)</span><a class="headerlink" href="#sketch-the-graph-of-f-x-dfrac-1-4-x-x-1-4-x-3-3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Solution</strong></p>
+<p><span class="math notranslate nohighlight">\(f(x)\)</span> has three <span class="math notranslate nohighlight">\(x\)</span> intercepts at <span class="math notranslate nohighlight">\(0, 1,\)</span> and <span class="math notranslate nohighlight">\(-3\)</span>.</p>
+<p>At <span class="math notranslate nohighlight">\(x=0\)</span>, the multiplicity is <span class="math notranslate nohighlight">\(1\)</span>, which means the graph will be linear at the origin <span class="math notranslate nohighlight">\((0,0)\)</span>.</p>
+<p>At <span class="math notranslate nohighlight">\(x=1\)</span>, the multiplicity is <span class="math notranslate nohighlight">\(4\)</span>, which means the graph will bounce at this point.</p>
+<p>At <span class="math notranslate nohighlight">\(x=-3\)</span>, the multiplicity is <span class="math notranslate nohighlight">\(3\)</span>, which means the graph will cross the <span class="math notranslate nohighlight">\(x\)</span>-axis at this intercept.</p>
+<p>Now, at <span class="math notranslate nohighlight">\(x=0\)</span>, <span class="math notranslate nohighlight">\(f(x)=0\)</span>, which means the <span class="math notranslate nohighlight">\(y\)</span>-intercept of the graph is <span class="math notranslate nohighlight">\(0\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;h1&gt;&lt;iframe src=&quot;https://www.desmos.com/calculator/3mxv3hwjl6?embed&quot; width=&quot;500px&quot; height=&quot;500px&quot; style=&quot;border: 1px solid #ccc&quot; frameborder=0&gt;&lt;/iframe&gt;&lt;/h1&gt;&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><h1><iframe src="https://www.desmos.com/calculator/3mxv3hwjl6?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></h1></div></div>
+</div>
+</div>
+<div class="section" id="find-intercepts-and-multiplicities-of-the-following-functions">
+<h2>4. Find intercepts and multiplicities of the following functions:<a class="headerlink" href="#find-intercepts-and-multiplicities-of-the-following-functions" title="Permalink to this headline">¶</a></h2>
+<p><span class="math notranslate nohighlight">\(
+\text{(a) } f(x) = x(4x^2-12x+9)(x^2+8x+16)  \\
+\text{(b) } f(x) = 3x^4 + 6x^3 + 3x^2 \\
+\text{(c) } f(x) = 2x^4(x^3 - 4x^2 + 4x)
+\)</span></p>
+<p><strong>Solution</strong></p>
+<p>(a)</p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+f(x) &amp;= x(4x^2-12x+9)(x^2+8x+16)  \\
+&amp;= x(2x-3)^2(x+4)^2
+\end{align}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(x\)</span> intercepts: <span class="math notranslate nohighlight">\(-4, 0, \dfrac{3}{2}\)</span><br />
+Multiplicities: <span class="math notranslate nohighlight">\(1, 2\)</span>.</p>
+<p>(b)</p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+f(x) &amp;= 3x^4 + 6x^3 + 3x^2  \\
+&amp;= 3x^2(x^2+2x+1)  \\
+&amp;= 3x^2(x+1)^2
+\end{align}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(x\)</span> intercepts: <span class="math notranslate nohighlight">\(-1, 0\)</span><br />
+Multiplicities: <span class="math notranslate nohighlight">\(1, 2\)</span>.</p>
+<p>(c)</p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+f(x) &amp;= 2x^4(x^3 - 4x^2 + 4x)  \\
+&amp;= 2x^5(x^2 - 4x + 4)  \\
+&amp;= 2x^5(x - 2)^2
+\end{align}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(x\)</span> intercepts: <span class="math notranslate nohighlight">\(0, 2\)</span><br />
+Multiplicities: <span class="math notranslate nohighlight">\(1, 2\)</span>.</p>
+</div>
+<div class="section" id="find-f-x-given-double-zero-at-x-3-and-triple-zero-at-x-0-passes-through-the-point-1-32">
+<h2>5. Find <span class="math notranslate nohighlight">\(f(x)\)</span>. Given, double zero at <span class="math notranslate nohighlight">\(x=−3\)</span> and triple zero at <span class="math notranslate nohighlight">\(x=0\)</span>. Passes through the point <span class="math notranslate nohighlight">\((1,32)\)</span>.<a class="headerlink" href="#find-f-x-given-double-zero-at-x-3-and-triple-zero-at-x-0-passes-through-the-point-1-32" title="Permalink to this headline">¶</a></h2>
+<p><strong>Solution</strong></p>
+<p><span class="math notranslate nohighlight">\(
+f(x) = a(x+3)^2x^3
+\)</span></p>
+<p>Let’s find the stretch factor <span class="math notranslate nohighlight">\(a\)</span>,</p>
+<p><span class="math notranslate nohighlight">\(
+f(x=1) = 32 \\
+32 = a(1+3)^2(1)^3  \\
+a = 2
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(f(x) = 2(x+3)^2x^3\)</span></p>
+</div>
+<div class="section" id="find-f-x-given-degree-5-roots-of-multiplicity-2-at-x-3-and-x-2-and-a-root-of-multiplicity-1-at-x-2-y-intercept-at-0-4">
+<h2>6. Find <span class="math notranslate nohighlight">\(f(x)\)</span>. Given, degree <span class="math notranslate nohighlight">\(5\)</span>. roots of multiplicity <span class="math notranslate nohighlight">\(2\)</span> at <span class="math notranslate nohighlight">\(x=−3\)</span> and <span class="math notranslate nohighlight">\(x=2\)</span> and a root of multiplicity <span class="math notranslate nohighlight">\(1\)</span> at <span class="math notranslate nohighlight">\(x=−2\)</span>. <span class="math notranslate nohighlight">\(y\)</span>-intercept at <span class="math notranslate nohighlight">\((0, 4).\)</span><a class="headerlink" href="#find-f-x-given-degree-5-roots-of-multiplicity-2-at-x-3-and-x-2-and-a-root-of-multiplicity-1-at-x-2-y-intercept-at-0-4" title="Permalink to this headline">¶</a></h2>
+<p><strong>Solution</strong></p>
+<p><span class="math notranslate nohighlight">\(
+f(x) = a(x+3)^2(x-2)^2(x+2)
+\)</span></p>
+<p>Given, <span class="math notranslate nohighlight">\(f(x) = 4\)</span> at <span class="math notranslate nohighlight">\(x=0\)</span>.</p>
+<p><span class="math notranslate nohighlight">\(
+4 = a(3)^2(-2)^2(2)  \\
+\therefore a = \dfrac{1}{18}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(f(x) = \dfrac{1}{18}(x+3)^2(x-2)^2(x+2)\)</span></p>
+</div>
+<div class="section" id="use-the-graphs-to-write-a-polynomial-function-of-least-degree">
+<h2>7. Use the graphs to write a polynomial function of least degree.<a class="headerlink" href="#use-the-graphs-to-write-a-polynomial-function-of-least-degree" title="Permalink to this headline">¶</a></h2>
+<img src="section_5_3_figure_74.jfif"><p><strong>Solution</strong></p>
+<p><span class="math notranslate nohighlight">\(
+f(x) = a (x+300)^2 (x-300)^3
+\)</span></p>
+<p>At <span class="math notranslate nohighlight">\(x = 0\)</span>, <span class="math notranslate nohighlight">\(f(x) = -90000\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+-90000 = a (300)^2 (-300)^3  \\
+a = \dfrac{1}{300^3}
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(f(x) = \dfrac{1}{300^3} (x+300)^2 (x-300)^3\)</span></p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Amlan Banerjee, Ph.D.<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
